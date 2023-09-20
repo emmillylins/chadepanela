@@ -94,3 +94,11 @@ h2 {
     padding: 10px;
     cursor: pointer;
 }
+
+/* MOBILE */
+@media (max-width: 650px) {
+
+    body {
+        padding: 3% 0;
+    }
+}

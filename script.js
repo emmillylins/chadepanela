@@ -111,6 +111,9 @@ const itensIndisponiveis = items.filter(item => !item.disponivel);
 
 // Combina os arrays para que os itens indisponíveis apareçam no final
 const itensOrdenados = [...itensDisponiveis, ...itensIndisponiveis];
+const modal = document.getElementById("myModal");
+const modalClose = document.getElementById("modalClose");
+const nomeCompradorInput = document.getElementById("nomeCompradorInput");
 
 const itemList = document.getElementById("item-list");
 
@@ -142,32 +145,46 @@ itensOrdenados.forEach(item => {
 
     itemDiv.appendChild(infoDiv);
 
+    // const buyButton = document.createElement("button");
     const buyButton = document.createElement("button");
     buyButton.textContent = "comprar";
 
-       // Verifique se o item está disponível e defina o botão como desabilitado, se necessário
+    // Verifique se o item está disponível e defina o botão como desabilitado, se necessário
     if (!item.disponivel) {
         itemDiv.classList.add("disabled");
         buyButton.disabled = true;
-    }
+    } 
+    
+    // Limpe o campo de entrada de nome
+    nomeCompradorInput.value = "";
+
 
     buyButton.addEventListener("click", () => {
         if (item.disponivel) {
-            const nomeComprador = prompt("Digite seu nome:");
-            if (nomeComprador) {
-                item.disponivel = false;
-                itemDiv.classList.add("disabled");
-                buyButton.disabled = true;
-
-                //enviarEmail(item, nomeComprador);
-            }
+            modal.style.display = "block";
+            confirmarNomeBtn.addEventListener("click", () => {
+                const nomeComprador = nomeCompradorInput.value;
+                if (nomeComprador) {
+                    item.disponivel = false;
+                    itemDiv.classList.add("disabled");
+                    buyButton.disabled = true;
+                    modal.style.display = "none";
+                    //enviarEmail(item, nomeComprador);
+                } else {
+                    alert("Por favor, insira seu nome.");
+                }
+            });
+            modalClose.addEventListener("click", () => {
+                console.log("Clicou no ícone de fechar.");
+                modal.style.display = "none";
+            }); 
         } else {
             alert("Este item já foi comprado ou está indisponível.");
         }
-    });
+    });   
+
     itemDiv.appendChild(buyButton);
     itemList.appendChild(itemDiv);
-
 });
 
 function enviarEmail(item, nomeComprador) {
