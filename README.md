@@ -1,3 +1,3 @@
 # chadepanela
 
-Website: https://meuchadepanela.netlify.app/
+Website: [meuchadepanela](https://meuchadepanela.netlify.app/){:target="_blank" rel="noopener"}
