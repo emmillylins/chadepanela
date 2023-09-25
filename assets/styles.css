@@ -102,22 +102,11 @@ main {
   flex-direction: row;
 }
 
-main .icone {
-  flex: 50%; 
- /* width: fit-content;*/
-  margin: 0;
-}
-
-main .content {
-  flex: 50%;
-  max-width: 50%;
-}
-
-main .icone img {
+main .row #icone img {
   max-width: 400px;
 }
 
-main .content h2 {
+main #content h2 {
   font-family: 'League Spartan', sans-serif;
   color: #585858;
   text-align: center;
