@@ -4,7 +4,7 @@ const items = [
         nome: "Jogo de Pratos",
         descricao: "São tão lindos que vou comer na mão pra não estragar",
         imagem: "https://m.media-amazon.com/images/I/61KklsQd3iL._AC_SL1000_.jpg",
-        link: "https://www.amazon.com.br/Conjunto-Pratos-Raso-Stoneware-Campestre/dp/B09WJHTHVQ/ref=asc_df_B09WJHTHVQ/?tag=googleshopp00-20&linkCode=df0&hvadid=379793457803&hvpos=&hvnetw=g&hvrand=15886989761012893557&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001625&hvtargid=pla-1731173475275&psc=1", 
+        link: "https://www.amazon.com.br/Pratos-Raso-5cm-Ryo-Bambu/dp/B07T4F4NSW/ref=asc_df_B07T4F4NSW/?tag=googleshopp00-20&linkCode=df0&hvadid=379720633837&hvpos=&hvnetw=g&hvrand=9031368893666052756&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001625&hvtargid=pla-923652786671&psc=1", 
         disponivel: true
     },
     {
