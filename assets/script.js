@@ -101,7 +101,7 @@ const items = [
         descricao: "sei lá, é necessário né?",
         imagem: "https://down-br.img.susercontent.com/file/br-11134207-7qukw-lk9mzphnmymh6a",
         link: "https://shopee.com.br/Escorredor-De-Arroz-E-Massas-Macarr%C3%A3o-Em-A%C3%A7o-Inox-Com-Al%C3%A7a-24cm-i.316898520.19215824522?xptdk=6863cd06-14d0-4a07-a979-12065c943abb", 
-        disponivel: true
+        disponivel: false
     },
     {
         id: 14,
