@@ -45,46 +45,18 @@
     color: #E0B15B;
   }
   
-  @media (max-width: 900px) {
-    .header .logo {
-      margin-right: auto;
-    }
-    .header .social-icons {
-      padding-top: 17px;
-    }
-    
-    .header .social-icons i {
-      font-size: 15px;
-      padding: 7px;
-      z-index: 9996;
-    }
-    
-    .header .social-icons a {
-      transition: 0.3s;
-    }
-  }
   
   /* MOBILE HEADER*/
-  @media (max-width: 500px) {
+  @media (max-width: 650px) {
   
+    .header {
+      padding-top: 0;
+    }
+
     .header .social-icons {
-      padding-top: 13px;
+      display: none;
     }
-  
-    .header .social-icons i {
-      padding: 4px !important;
-      z-index: 9996;
-    }
-    .header .logo h1 {
-      font-size: 26px;
-    }
-  
-    .header i {
-      font-size: 24px;
-    }
-    .header .social-icons a {
-      padding-left: 5px;
-    }
+    
   }
 
 
@@ -97,7 +69,7 @@ main {
   background-size: cover;
   background-repeat: no-repeat; /* Repetir a textura */
   background-blend-mode: multiply; /* Mistura de cores */  
-  padding: 1%;
+  padding: 1% 4% 4%;
   display: flex;
 }
 
@@ -108,21 +80,18 @@ main .row #icone img {
 
 main #content h2 {
   font-family: 'League Spartan', sans-serif;
-  line-height: 20px;
+  line-height: 22px;
   color: #585858;
   text-align: center;
   font-size: 22px;
-  padding: 0 50px;
+  padding: 20px 50px;
 }
 
 main .inside-content {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-}
-
-main .inside-content {
-  padding: 10px 60px;
+  padding: 10px 0 0 90px;
 }
 
 main .inside-content .address {
@@ -141,6 +110,30 @@ main .inside-content .address span {
   font-family: 'League Spartan', sans-serif;
   line-height: 18px;
   display: block;
+}
+
+@media (min-width: 1153px){
+  main #content h2 {
+    font-size: 25px;
+    padding: 20px 60px;
+  }
+}
+
+@media (max-width: 600px){
+
+  main .row #icone img {
+    max-width: 400px;
+    margin: 20px 10px;
+  }
+  
+  main #content h2 {
+    font-size: 22px;
+    padding: 70px 50px 20px;
+  }
+
+  main .inside-content {    
+  padding: 10px 0 50px 90px;
+  }
 }
 
 /*--------------------------------------------------------------
