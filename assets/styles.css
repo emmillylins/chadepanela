@@ -182,15 +182,40 @@ main .inside-content .address span {
   padding: 0 0 5px 20px;
 }
 
+.lista h3, .lista h5, .lista a {  
+  font-family: 'League Spartan', sans-serif;
+}
+
+/* Estilo do nome do item */
+.item h3 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 600;
+  color: #333;
+  letter-spacing: 1px;
+}
+
+.item a {
+  text-decoration: none;
+  color: #333; /* Cor do texto do link */
+}
+
+.item a:hover {
+  text-decoration: none;
+  color: #333; /* Cor do texto do link */
+}
+
+/* Estilo da descrição */
+.item p {
+  font-size: 14px;
+  color: #666; /* Cor do texto da descrição */
+  margin-right: 60px;
+}
+
 .lista .item-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.item a {
-    text-decoration: none;
-    color: #333; /* Cor do texto do link */
 }
 
 /* Estilo geral dos itens */
@@ -207,28 +232,16 @@ main .inside-content .address span {
 
 /* Estilo da imagem */
 .item img {
-    max-width: 100px;
+    max-width: 90px;
     margin-right: 10px;
-    border: 1px solid #ddd; /* Adicionando borda à imagem */
-    border-radius: 4px; /* Cantos arredondados para a imagem */
-}
-
-/* Estilo do nome do item */
-.item h3 {
-    font-size: 18px;
-    margin: 0;
-}
-
-/* Estilo da descrição */
-.item p {
-    font-size: 14px;
-    color: #666; /* Cor do texto da descrição */
+    /* border: 1px solid #ddd;  */
+    border-radius: 4px; 
 }
 
 /* Estilo do botão de compra */
 .item button {
     margin-left: auto;
-    background-color: #007BFF; /* Cor de fundo do botão */
+    background-color: #b97541e0; /* Cor de fundo do botão */
     color: #fff; /* Cor do texto do botão */
     border: none;
     padding: 8px 16px;
@@ -238,7 +251,7 @@ main .inside-content .address span {
 }
 
 .item button:hover {
-    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+    background-color: #E0B15B; /* Cor de fundo do botão ao passar o mouse */
 }
 
 /* Estilo dos itens desativados */
@@ -247,41 +260,28 @@ main .inside-content .address span {
     pointer-events: none; /* Itens desativados não são clicáveis */
 }
 
-/* Estilo para o modal */
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.4);
+/*--------------------------------------------------------------
+# MODAL
+--------------------------------------------------------------*/
+
+.modal-content #confirmarNomeBtn {
+    background-color: #b97541e0; 
+    color: #fff; 
+    border: none;
 }
 
-.modal-content {
-    background-color: #fefefe;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 50%;
-    text-align: center;
-    position: relative;
+.modal-content #btnClose {
+    background-color: #666666bb; 
+    color: #fff; 
+    border: none;
 }
 
-.close {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 10px;
-    cursor: pointer;
+.modal-content .modal-title {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 28px;
+  color: #B97641;
 }
 
-/* MOBILE */
-@media (max-width: 650px) {
-
-    body {
-        padding: 3% 0;
-    }
+.modal-content .modal-body input {
+  padding-left: 5px;
 }

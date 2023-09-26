@@ -4,7 +4,7 @@ const items = [
         nome: "Jogo de Pratos",
         descricao: "São tão lindos que vou comer na mão pra não estragar",
         imagem: "https://m.media-amazon.com/images/I/61KklsQd3iL._AC_SL1000_.jpg",
-        link: "https://www.amazon.com.br/Pratos-Raso-5cm-Ryo-Bambu/dp/B07T4F4NSW/ref=asc_df_B07T4F4NSW/?tag=googleshopp00-20&linkCode=df0&hvadid=379720633837&hvpos=&hvnetw=g&hvrand=9031368893666052756&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001625&hvtargid=pla-923652786671&psc=1", 
+        link: "https://www.amazon.com.br/Conjunto-Pratos-Rasos-5cm-Maresia/dp/B09418784M/ref=d_pd_sim_sccl_3_1/131-7701125-8201652?pd_rd_w=ANym7&content-id=amzn1.sym.1175145d-3153-4798-9db2-723d7b5b82cb&pf_rd_p=1175145d-3153-4798-9db2-723d7b5b82cb&pf_rd_r=3Z7ZAKZDKMG1VMGXV7MC&pd_rd_wg=D9ALc&pd_rd_r=1baad68e-0dda-4fe5-bf1f-239d3b968727&pd_rd_i=B09418784M&psc=1", 
         disponivel: true
     },
     {
@@ -93,7 +93,7 @@ const items = [
         descricao: "Vai ter batida com vodka e ksuki :D",
         imagem: "https://lebiscuit.vtexassets.com/arquivos/ids/2880903/LIQUIDIFICADOR-MONDIAL-L99FB-220V.jpg?v=638141414109470000",
         link: "https://www.lebiscuit.com.br/liquidificador-mondial-l99fb-220v-5117041/p?idsku=2147299611&utm_source=google&utm_medium=cpc&utm_campaign=GOOGLE-PMAX_GERAL_NORDESTE_CONV&utm_content=NA_&utm_term=GERAL&utm_source_platform=&utm_creative_format=NA&utm_marketing_tatic=NA&gclid=CjwKCAjwjaWoBhAmEiwAXz8DBT49QLaezlOZtnWgE7VMvETz2zNldBH31Slhaf46we7Huj67zyXFSxoCk7cQAvD_BwE", 
-        disponivel: true
+        disponivel: false
     },
     {
         id: 13,
@@ -129,6 +129,7 @@ const itensIndisponiveis = items.filter(item => !item.disponivel);
 const itensOrdenados = [...itensDisponiveis, ...itensIndisponiveis];
 const modal = document.getElementById("myModal");
 const modalClose = document.getElementById("modalClose");
+const btnClose = document.getElementById("btnClose");
 const nomeCompradorInput = document.getElementById("nomeCompradorInput");
 
 const itemList = document.getElementById("item-list");
@@ -161,43 +162,44 @@ itensOrdenados.forEach(item => {
 
     itemDiv.appendChild(infoDiv);
 
-    // const buyButton = document.createElement("button");
-    const buyButton = document.createElement("button");
-    buyButton.textContent = "comprar";
-
+	const buyButton = document.createElement("button");
+    buyButton.textContent = "Escolher";
+    
     // Verifique se o item está disponível e defina o botão como desabilitado, se necessário
     if (!item.disponivel) {
         itemDiv.classList.add("disabled");
         buyButton.disabled = true;
     } 
-    
-    // Limpe o campo de entrada de nome
+	
+	// Limpe o campo de entrada de nome
     nomeCompradorInput.value = "";
-
-
+    
     buyButton.addEventListener("click", () => {
         if (item.disponivel) {
-            modal.style.display = "block";
+            $('#myModal').modal('show'); // Abre o modal usando jQuery
             confirmarNomeBtn.addEventListener("click", () => {
                 const nomeComprador = nomeCompradorInput.value;
                 if (nomeComprador) {
                     item.disponivel = false;
                     itemDiv.classList.add("disabled");
                     buyButton.disabled = true;
-                    modal.style.display = "none";
+                    $('#myModal').modal('hide');
                     //enviarEmail(item, nomeComprador);
                 } else {
                     alert("Por favor, insira seu nome.");
                 }
             });
-            modalClose.addEventListener("click", () => {
-                console.log("Clicou no ícone de fechar.");
-                modal.style.display = "none";
-            }); 
         } else {
             alert("Este item já foi comprado ou está indisponível.");
         }
-    });   
+    }); 
+    
+    modalClose.addEventListener("click", () => {
+        $('#myModal').modal('hide');
+    }); 
+    btnClose.addEventListener("click", () => {
+        $('#myModal').modal('hide');
+    }); 
 
     itemDiv.appendChild(buyButton);
     itemList.appendChild(itemDiv);
