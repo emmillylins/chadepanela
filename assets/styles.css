@@ -119,20 +119,26 @@ main .inside-content .address span {
   }
 }
 
-@media (max-width: 600px){
+@media (max-width: 500px){
 
   main .row #icone img {
-    max-width: 400px;
-    margin: 20px 10px;
+    max-width: 350px;
   }
   
   main #content h2 {
     font-size: 22px;
-    padding: 70px 50px 20px;
+    padding: 40px 0px 0;
   }
 
   main .inside-content {    
-  padding: 10px 0 50px 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  }
+
+  main .inside-content .icone {
+    padding-right: 30px;
   }
 }
 
