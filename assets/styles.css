@@ -260,6 +260,43 @@ main .inside-content .address span {
     pointer-events: none; /* Itens desativados não são clicáveis */
 }
 
+@media (max-width: 500px){
+  .lista {
+    padding: 10% 1%;
+   }
+   
+   .lista .title h1 {
+     font-size: 25px;
+     padding: 0 0 5px 20px;
+   }
+   
+   /* Estilo do nome do item */
+   .item h3 {
+     font-size: 15px;
+   }
+   
+   /* Estilo da descrição */
+   .item p {
+     font-size: 13px;
+     color: #666; /* Cor do texto da descrição */
+     margin-right: 20px;
+   }
+   
+   /* Estilo da imagem */
+   .item img {
+       max-width: 90px;
+       margin-right: 10px;
+       border-radius: 4px; 
+   }
+   
+   /* Estilo do botão de compra */
+   .item button {
+       margin-left: auto;
+       padding: 4px 10px;
+   }
+   
+}
+
 /*--------------------------------------------------------------
 # MODAL
 --------------------------------------------------------------*/
