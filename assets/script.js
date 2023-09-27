@@ -98,7 +98,7 @@ const items = [
     {
         id: 13,
         nome: "Escorredor",
-        descricao: "Emmy sem macarrão é um Emmy mau-humorada",
+        descricao: "Emmy sem macarrão é uma Emmy mau-humorada",
         imagem: "https://down-br.img.susercontent.com/file/br-11134207-7qukw-lk9mzphnmymh6a",
         link: "https://shopee.com.br/Escorredor-De-Arroz-E-Massas-Macarr%C3%A3o-Em-A%C3%A7o-Inox-Com-Al%C3%A7a-24cm-i.316898520.19215824522?xptdk=6863cd06-14d0-4a07-a979-12065c943abb", 
         disponivel: true
@@ -109,6 +109,14 @@ const items = [
         descricao: "Pras minhas visitas tomarem um suquinho",
         imagem: "https://down-br.img.susercontent.com/file/sg-11134201-7qvg3-lg5ivmyq11libd",
         link: "https://shopee.com.br/Jarra-Borossilicato-Com-Tampa-Al%C3%A7a-Capacidade-De-1-3l-Prata-i.297187377.22727792625?xptdk=a4314968-d8ae-41f7-8d8c-892f334fc249", 
+        disponivel: true
+    },
+    {
+        id: 15,
+        nome: "Tapete de cozinha",
+        descricao: "Pra enxugar os pezinhos né",
+        imagem: "https://down-br.img.susercontent.com/file/br-11134201-23010-u15wh28qnpmvc5",
+        link: "https://shopee.com.br/Jogo-de-Passadeira-de-Tear-Tapete-de-Cozinha-3-Pe%C3%A7as-Algod%C3%A3o-i.789131072.16078009518?sp_atk=0c89d2dd-3520-401c-a2ef-0e352aca7817&xptdk=0c89d2dd-3520-401c-a2ef-0e352aca7817", 
         disponivel: true
     },
     // {
