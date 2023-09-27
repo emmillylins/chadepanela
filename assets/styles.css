@@ -171,15 +171,21 @@ main .inside-content .address span {
 /*--------------------------------------------------------------
 # ITEM-LIST
 --------------------------------------------------------------*/
+#item-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .lista {
- padding: 4% 2%;
+ padding: 4% 2% 12%;
 }
 
 .lista .title h1 {
   font-family: 'Architects Daughter', cursive;
   font-size: 28px;
   color: #B97641;
-  padding: 0 0 5px 20px;
+  padding: 0 0 5px 35px;
 }
 
 .lista h3, .lista h5, .lista a {  
@@ -221,6 +227,7 @@ main .inside-content .address span {
 /* Estilo geral dos itens */
 .item {
     border: 1px solid #B97641; /* Cor da borda */
+    border-radius: 15px;
     padding: 10px;
     margin: 10px;
     display: flex;
@@ -228,6 +235,12 @@ main .inside-content .address span {
     background-color: #fff; /* Cor de fundo */
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
     text-align: left;
+    width: 600px;
+    transition: 0.5s;
+}
+
+.item:hover {
+  scale: 1.02;
 }
 
 /* Estilo da imagem */
@@ -235,7 +248,7 @@ main .inside-content .address span {
     max-width: 90px;
     margin-right: 10px;
     /* border: 1px solid #ddd;  */
-    border-radius: 4px; 
+    border-radius: 10px; 
 }
 
 /* Estilo do botão de compra */
@@ -245,9 +258,10 @@ main .inside-content .address span {
     color: #fff; /* Cor do texto do botão */
     border: none;
     padding: 8px 16px;
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
     transition: background-color 0.2s ease; /* Efeito de transição suave */
+    font-size: 16px;
 }
 
 .item button:hover {
@@ -260,41 +274,53 @@ main .inside-content .address span {
     pointer-events: none; /* Itens desativados não são clicáveis */
 }
 
-@media (max-width: 500px){
-  .lista {
-    padding: 10% 1%;
+@media screen and (max-width: 600px){
+   .lista {
+    padding: 6% 2% 12%;
    }
    
-   .lista .title h1 {
+   #item-list {
+    justify-content: space-evenly;
+    padding: 0;
+    flex-direction: grid;
+   }
+   
+  .lista .title h1 {
      font-size: 25px;
-     padding: 0 0 5px 20px;
-   }
+     padding: 20px 0 0;
+     text-align: center;
+   } 
    
-   /* Estilo do nome do item */
    .item h3 {
+    margin-top: 10px;
      font-size: 15px;
    }
    
-   /* Estilo da descrição */
    .item p {
      font-size: 13px;
-     color: #666; /* Cor do texto da descrição */
-     margin-right: 20px;
+     color: #666; 
+     margin: 0 0 10px 0;
    }
-   
-   /* Estilo da imagem */
-   .item img {
-       max-width: 90px;
-       margin-right: 10px;
-       border-radius: 4px; 
-   }
-   
-   /* Estilo do botão de compra */
-   .item button {
-       margin-left: auto;
-       padding: 4px 10px;
-   }
-   
+    
+   #item-list .item {
+    width: 185px;
+    display: block;
+    margin: 0;
+    margin-bottom: 15px;
+  }
+
+  .item img {
+    max-width: 180px;
+    width: 100%;
+  }
+
+  .item button {
+    height: 30px;
+    width: 100%;
+    font-size: 14px;
+    padding: 0;
+    margin-bottom: auto;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -321,4 +347,52 @@ main .inside-content .address span {
 
 .modal-content .modal-body input {
   padding-left: 5px;
+}
+
+/*--------------------------------------------------------------
+# MODAL
+--------------------------------------------------------------*/
+#footer{
+  background-color: #B97641;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
+  font-weight: lighter;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 15px;
+  padding: 0 1%;
+}
+
+.footer-container-i .more-info p {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-container-i {
+  padding: 2rem 0 1rem 0;
+}
+
+.footer-container-ii{
+  padding: 0;
+}
+
+.icon i {  
+  color: #fff;
+}
+
+.footer-container-iii {
+  padding: 2rem 0 1rem 0;
+}
+
+#footer a{
+  text-decoration: none;
+  color: #fff;
+  padding: 0.5rem;
+  transition: 0.3s;
+}
+
+#footer a:hover{
+  color:#dfdfdf
 }

@@ -2,7 +2,7 @@ const items = [
     {
         id: 1,
         nome: "Jogo de Pratos",
-        descricao: "São tão lindos que vou comer na mão pra não estragar",
+        descricao: "São tão lindos que vou comer na mão",
         imagem: "https://m.media-amazon.com/images/I/61KklsQd3iL._AC_SL1000_.jpg",
         link: "https://www.amazon.com.br/Conjunto-Pratos-Rasos-5cm-Maresia/dp/B09418784M/ref=d_pd_sim_sccl_3_1/131-7701125-8201652?pd_rd_w=ANym7&content-id=amzn1.sym.1175145d-3153-4798-9db2-723d7b5b82cb&pf_rd_p=1175145d-3153-4798-9db2-723d7b5b82cb&pf_rd_r=3Z7ZAKZDKMG1VMGXV7MC&pd_rd_wg=D9ALc&pd_rd_r=1baad68e-0dda-4fe5-bf1f-239d3b968727&pd_rd_i=B09418784M&psc=1", 
         disponivel: true
@@ -18,7 +18,7 @@ const items = [
     {
         id: 3,
         nome: "Potes Organizadores",
-        descricao: "Acabar com as formigas safadas comendo minha feira inteira!",
+        descricao: "Acabar com aquelas formigas safadas",
         imagem: "https://down-br.img.susercontent.com/file/br-11134207-7qukw-ljsidc8041oq80",
         link: "https://shopee.com.br/Kit-de-Potes-para-Cozinha-Dispensa-Acr%C3%ADlico-Tampa-com-Trava-Potes-Herm%C3%A9ticos-5-Pe%C3%A7as-Caneta-e-Etiqueta-i.317212231.22096193690?xptdk=a313ec8b-c2a5-4afb-9ee6-b5f11fa2bd17", 
         disponivel: true
@@ -34,7 +34,7 @@ const items = [
     {
         id: 5,
         nome: "Escorredor De Louça",
-        descricao: "E vamos de evitar bactérias? minha imunidade já não é boa...",
+        descricao: "ajuda na preguiça de enxugar e guardar",
         imagem: "https://down-br.img.susercontent.com/file/6e629cc891eb948e275aa3e38156eb6b",
         link: "https://shopee.com.br/Escorredor-De-Lou%C3%A7a-Cozinha-Prato-Duplo-Porta-Talheres-Preto-Metaltru-i.341754426.14089007380?xptdk=14b964cf-8e2a-4993-b864-096a13c761c5", 
         disponivel: true
@@ -42,7 +42,7 @@ const items = [
     {
         id: 6,
         nome: "Porta frios",
-        descricao: "Bora comprar um queijinho e um presunto, minha filha?",
+        descricao: "Bora comprar um queijo e um presunto, minha filha?",
         imagem: "https://down-br.img.susercontent.com/file/br-11134207-7qukw-lhoqsfzaodvy8f",
         link: "https://shopee.com.br/Kit-Porta-Ovos-Geladeira-Com-Tampa-Porta-Frios-Acr%C3%ADlico-herm%C3%A9tico-Potes-Mantimentos-i.435948848.16644843819?xptdk=52ce8e77-9508-4d20-84b8-05ffe526df10", 
         disponivel: true
