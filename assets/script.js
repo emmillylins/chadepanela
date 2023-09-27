@@ -5,7 +5,7 @@ const items = [
         descricao: "São tão lindos que vou comer na mão",
         imagem: "https://m.media-amazon.com/images/I/61KklsQd3iL._AC_SL1000_.jpg",
         link: "https://www.amazon.com.br/Conjunto-Pratos-Rasos-5cm-Maresia/dp/B09418784M/ref=d_pd_sim_sccl_3_1/131-7701125-8201652?pd_rd_w=ANym7&content-id=amzn1.sym.1175145d-3153-4798-9db2-723d7b5b82cb&pf_rd_p=1175145d-3153-4798-9db2-723d7b5b82cb&pf_rd_r=3Z7ZAKZDKMG1VMGXV7MC&pd_rd_wg=D9ALc&pd_rd_r=1baad68e-0dda-4fe5-bf1f-239d3b968727&pd_rd_i=B09418784M&psc=1", 
-        disponivel: true
+        disponivel: false
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ const items = [
         descricao: "Tô afim de roubar uma sopinha de mainha",
         imagem: "https://down-br.img.susercontent.com/file/br-11134207-7qukw-lhe1ezxcj5iu7a",
         link: "https://shopee.com.br/4-Unidades-de-Bowl-em-Porcelana-com-relevo-Matelass%C3%AA-380ml-i.405726648.22008452464?xptdk=8a5364eb-f320-4b0f-aaa4-ce517e1069e8", 
-        disponivel: true
+        disponivel: false
     },
     {
         id: 3,
