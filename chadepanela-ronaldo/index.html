@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Chá de Emmy & Fu</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200&display=swap" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link rel="stylesheet" href="assets/styles.css">
+
+     <!-- Bootstrap -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="logo">
+            <a href=""><img src="assets/images/icon-heart-cooking.svg" alt="icone"></a>
+        </div>
+        <div class="title">
+            <h1>Chá de Emmy & Fu</h1>
+        </div>
+        <div class="social-icons">
+            <a href="#" alt="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.instagram.com/htemyl/" alt="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/emmilly-lins-82b06a235/" alt="linkedin" ><i class="bi bi-linkedin"></i></i></a>
+          </div>
+    </header>
+
+    <main>
+        <div class="row align-items-center">
+            <div class="col-sm-5" id="icone">
+                <img src="assets/images/arte.svg" alt="">
+            </div>
+            <div class="col-sm-7" id="content">
+                <div>
+                    <h2>Olá, muito bem vindo à nossa página!<br>
+                        Se você está aqui é porque contamos com a sua presença no nosso <span>Chá de Panela</span>.<br>
+                        Fufu e eu te aguardamos lá, mas não esqueça de confirmar sua presença!</h2>
+                </div>
+                <div class="inside-content">
+                    <div class="icone"><img src="assets/images/cacto.svg" alt="imagem de um cacto"></div>
+                    <div class="address">
+                        <span>21/10/23</span>
+                        <span class="divider"></span>
+                        <span><strong>Boteco Na Praça</strong></span>
+                        <span>Praça de Casa Forte, 611</span>
+                        <span class="divider"></span>
+                        <span>Às 14:00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="lista">
+        <div class="title"><h1>Lista de desejos</h1-></div>
+        <div id="item-list">
+            <!-- Itens serão adicionados aqui via JavaScript -->
+        </div> 
+
+        <!-- Modal -->
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close" id="modalClose">&times;</span>
+                <h2>Digite seu nome</h2>
+                <input type="text" id="nomeCompradorInput" placeholder="Seu Nome">
+                <button id="confirmarNomeBtn">Confirmar</button>
+            </div>
+        </div>       
+    </section>
+
+    <footer id="footer">
+        <div class="footer-container-i">
+            <div class="more-info">
+                <p><span>Endereço:</span><a href="https://www.google.com/maps/@-8.0357978,-34.9196921,3a,82.5y,136.09h,69.84t/data=!3m6!1e1!3m4!1sK-0cA4bV-bx223JRl1UhRw!2e0!7i16384!8i8192?entry=ttu" target="_blank">Praça de Casa Forte, 611 • Recife</a></p>
+                <p><span>Email:</span><a href="mailto:@gmail.com">@gmail.com</a></p>
+                <p><span>Telefone:</span><a href="tel:+55 81 99947-9482">+55 81 99947-9482</a></p>
+            </div>  
+        </div>
+
+        <div class="footer-container-ii">
+            <a class="icon" href="https://github.com/emmillylins" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+            <a class="icon" href="https://www.linkedin.com/in/emmilly-lins-82b06a235/" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
+
+            <a class="icon" href="https://wa.me/558199479482" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <p class="footer-container-iii">Copyright © 2023. Todos os direitos reservados.</p>
+
+    </footer>
+
+    <script src="assets/script.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+    (function () {
+        emailjs.init("_ldF_b52nqvbJ3ogi"); // Substitua "user_your_api_key" pela sua chave de API
+    })();
+</script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
