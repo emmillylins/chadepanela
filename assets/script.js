@@ -5,7 +5,7 @@ const items = [
         descricao: "Pra completar a coleção, muito obrigada",
         imagem: "https://5249028l.ha.azioncdn.net/img/2023/03/produto/6484/descricao-prato-raso-ryo-maresia-oxford-casa-baires-3.jpg?ims=fit-in/800x",
         link: "https://www.amazon.com.br/dp/B0941QZBJL?_encoding=UTF8&psc=1&ref_=cm_sw_r_cp_ud_dp_929GGQ9XENJTX6VC24SY_1", 
-        disponivel: false
+        disponivel: true
     },
     {
         id: 2,
