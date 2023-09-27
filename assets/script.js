@@ -61,7 +61,7 @@ const items = [
         descricao: "Vai ser bem mais fácil limpar o xixi de fu!!",
         imagem: "https://down-br.img.susercontent.com/file/br-11134201-23030-yhubus80t5nvb7",
         link: "https://shopee.com.br/Mop-Flat-Balde-6-litros-Com-2-Refis-Com-Cabo-Extensivel-Inox-Grande-i.545883024.23228106141?sp_atk=1553f851-b766-405b-afe6-aff366f639bc&xptdk=1553f851-b766-405b-afe6-aff366f639bc", 
-        disponivel: true
+        disponivel: false
     },
     {
         id: 9,
