@@ -1,10 +1,10 @@
 const items = [
     {
         id: 1,
-        nome: "Jogo de Pratos",
-        descricao: "São tão lindos que vou comer na mão",
-        imagem: "https://m.media-amazon.com/images/I/61KklsQd3iL._AC_SL1000_.jpg",
-        link: "https://www.amazon.com.br/Conjunto-Pratos-Rasos-5cm-Maresia/dp/B09418784M/ref=d_pd_sim_sccl_3_1/131-7701125-8201652?pd_rd_w=ANym7&content-id=amzn1.sym.1175145d-3153-4798-9db2-723d7b5b82cb&pf_rd_p=1175145d-3153-4798-9db2-723d7b5b82cb&pf_rd_r=3Z7ZAKZDKMG1VMGXV7MC&pd_rd_wg=D9ALc&pd_rd_r=1baad68e-0dda-4fe5-bf1f-239d3b968727&pd_rd_i=B09418784M&psc=1", 
+        nome: "Jogo de Pratos fundos",
+        descricao: "Pra completar a coleção, muito obrigada",
+        imagem: "https://5249028l.ha.azioncdn.net/img/2023/03/produto/6484/descricao-prato-raso-ryo-maresia-oxford-casa-baires-3.jpg?ims=fit-in/800x",
+        link: "https://www.amazon.com.br/dp/B0941QZBJL?_encoding=UTF8&psc=1&ref_=cm_sw_r_cp_ud_dp_929GGQ9XENJTX6VC24SY_1", 
         disponivel: false
     },
     {
@@ -77,7 +77,7 @@ const items = [
         descricao: "Pra fazer um bom e velho amarelinho pra Fufu",
         imagem: "https://down-br.img.susercontent.com/file/fe96df889ae599e7184ce51c09094f01",
         link: "https://shopee.com.br/Cuscuzeiro-Individual-Mini-Polido-N%C2%BA-10-Fortlar-Aluminio-i.663505037.19343966515?xptdk=065dc442-4700-4f34-b5c5-caa998aec10b", 
-        disponivel: true
+        disponivel: false
     },
     {
         id: 11,
@@ -101,7 +101,7 @@ const items = [
         descricao: "Emmy sem macarrão fica mau-humorada",
         imagem: "https://down-br.img.susercontent.com/file/br-11134207-7qukw-lk9mzphnmymh6a",
         link: "https://shopee.com.br/Escorredor-De-Arroz-E-Massas-Macarr%C3%A3o-Em-A%C3%A7o-Inox-Com-Al%C3%A7a-24cm-i.316898520.19215824522?xptdk=6863cd06-14d0-4a07-a979-12065c943abb", 
-        disponivel: true
+        disponivel: false
     },
     {
         id: 14,
@@ -118,6 +118,14 @@ const items = [
         imagem: "https://down-br.img.susercontent.com/file/br-11134201-23010-u15wh28qnpmvc5",
         link: "https://shopee.com.br/Jogo-de-Passadeira-de-Tear-Tapete-de-Cozinha-3-Pe%C3%A7as-Algod%C3%A3o-i.789131072.16078009518?sp_atk=0c89d2dd-3520-401c-a2ef-0e352aca7817&xptdk=0c89d2dd-3520-401c-a2ef-0e352aca7817", 
         disponivel: true
+    },
+    {
+        id: 16,
+        nome: "Jogo de Pratos rasos",
+        descricao: "São tão lindos que vou comer na mão",
+        imagem: "https://m.media-amazon.com/images/I/61KklsQd3iL._AC_SL1000_.jpg",
+        link: "https://www.amazon.com.br/Conjunto-Pratos-Rasos-5cm-Maresia/dp/B09418784M/ref=d_pd_sim_sccl_3_1/131-7701125-8201652?pd_rd_w=ANym7&content-id=amzn1.sym.1175145d-3153-4798-9db2-723d7b5b82cb&pf_rd_p=1175145d-3153-4798-9db2-723d7b5b82cb&pf_rd_r=3Z7ZAKZDKMG1VMGXV7MC&pd_rd_wg=D9ALc&pd_rd_r=1baad68e-0dda-4fe5-bf1f-239d3b968727&pd_rd_i=B09418784M&psc=1", 
+        disponivel: false
     },
     // {
     //     id: 12,
