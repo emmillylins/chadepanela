@@ -1,7 +1,7 @@
 const items = [
     {
         id: 1,
-        nome: "Jogo de Pratos fundos",
+        nome: "Jogo de pratos fundos",
         descricao: "Pra completar a coleção, muito obrigada",
         imagem: "https://images.tcdn.com.br/img/img_prod/768148/90_kit_6_pratos_fundo_porcelana_ryo_oxford_22_5_cm_maresia_branco_4137_6_8687eecc3f2642d9f53e3657d7e91c04.jpg",
         link: "https://www.amazon.com.br/dp/B0941QZBJL?_encoding=UTF8&psc=1&ref_=cm_sw_r_cp_ud_dp_929GGQ9XENJTX6VC24SY_1", 
@@ -121,11 +121,35 @@ const items = [
     },
     {
         id: 16,
-        nome: "Jogo de Pratos rasos",
+        nome: "Jogo de pratos rasos",
         descricao: "São tão lindos que vou comer na mão",
         imagem: "https://m.media-amazon.com/images/I/61KklsQd3iL._AC_SL1000_.jpg",
         link: "https://www.amazon.com.br/Conjunto-Pratos-Rasos-5cm-Maresia/dp/B09418784M/ref=d_pd_sim_sccl_3_1/131-7701125-8201652?pd_rd_w=ANym7&content-id=amzn1.sym.1175145d-3153-4798-9db2-723d7b5b82cb&pf_rd_p=1175145d-3153-4798-9db2-723d7b5b82cb&pf_rd_r=3Z7ZAKZDKMG1VMGXV7MC&pd_rd_wg=D9ALc&pd_rd_r=1baad68e-0dda-4fe5-bf1f-239d3b968727&pd_rd_i=B09418784M&psc=1", 
         disponivel: false
+    },
+    {
+        id: 17,
+        nome: "Manta pra sofá",
+        descricao: "Gostei que só da cor Tiffany",
+        imagem: "https://down-br.img.susercontent.com/file/d67c90cf960ce1b4ede53de1fdfd3180",
+        link: "https://shopee.com.br/Manta-Pra-Sof%C3%A1-Gigantes-Tipo-Capa-100-Algod%C3%A3o-com-N%C3%B3-nas-pontas-*Promo%C3%A7%C3%A3o*-i.332667864.9715263398?xptdk=8b9d9cab-542a-41b0-a923-3365c085608e", 
+        disponivel: true
+    },
+    {
+        id: 18,
+        nome: "Kit de banheiro",
+        descricao: "Sempre quis ter um desses",
+        imagem: "https://down-br.img.susercontent.com/file/sg-11134201-7qvec-lf08kchlwj0622",
+        link: "https://shopee.com.br/Cj-3Pc-P-Banheiro-De-Cer%C3%A2mica-Londres-Branco-E-Ros%C3%A9-i.421955250.18577242433?sp_atk=a9bf0482-4031-4fef-bb72-6bc8c058e7fb&xptdk=a9bf0482-4031-4fef-bb72-6bc8c058e7fb", 
+        disponivel: true
+    },
+    {
+        id: 19,
+        nome: "Suporte de banheiro",
+        descricao: "Pra colocar um xampu, uma saboneteira...",
+        imagem: "https://m.media-amazon.com/images/I/61WyYfXxlTL._AC_UF894,1000_QL80_.jpg",
+        link: "https://www.amazon.com.br/Porta-Shampoo-Branco-Encaixar-Stolf/dp/B07GLVDG5W/ref=asc_df_B07GLVDG5W/?tag=googleshopp00-20&linkCode=df0&hvadid=379791908525&hvpos=&hvnetw=g&hvrand=16752600195553410408&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001625&hvtargid=pla-1648355215159&th=1", 
+        disponivel: true
     },
     // {
     //     id: 12,
