@@ -3,7 +3,7 @@ const items = [
         id: 1,
         nome: "Jogo de Pratos fundos",
         descricao: "Pra completar a coleção, muito obrigada",
-        imagem: "https://5249028l.ha.azioncdn.net/img/2023/03/produto/6484/descricao-prato-raso-ryo-maresia-oxford-casa-baires-3.jpg?ims=fit-in/800x",
+        imagem: "https://images.tcdn.com.br/img/img_prod/768148/90_kit_6_pratos_fundo_porcelana_ryo_oxford_22_5_cm_maresia_branco_4137_6_8687eecc3f2642d9f53e3657d7e91c04.jpg",
         link: "https://www.amazon.com.br/dp/B0941QZBJL?_encoding=UTF8&psc=1&ref_=cm_sw_r_cp_ud_dp_929GGQ9XENJTX6VC24SY_1", 
         disponivel: true
     },
