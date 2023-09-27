@@ -53,7 +53,7 @@ const items = [
         descricao: "Minhas visitas vão ter onde beber cerveja",
         imagem: "https://down-br.img.susercontent.com/file/sg-11134201-7rblq-ll54fo6vk9bpa3",
         link: "https://shopee.com.br/6-Copos-California-Redondo-Vidro-Transparente-Mesa-450ml-i.480453261.22431387885", 
-        disponivel: true
+        disponivel: false
     },
     {
         id: 8,
