@@ -10,7 +10,7 @@ const items = [
     {
         id: 2,
         nome: "Bowl de porcelana",
-        descricao: "Tô afim de roubar uma sopinha na casa de mainha",
+        descricao: "Tô afim de roubar uma sopinha de mainha",
         imagem: "https://down-br.img.susercontent.com/file/br-11134207-7qukw-lhe1ezxcj5iu7a",
         link: "https://shopee.com.br/4-Unidades-de-Bowl-em-Porcelana-com-relevo-Matelass%C3%AA-380ml-i.405726648.22008452464?xptdk=8a5364eb-f320-4b0f-aaa4-ce517e1069e8", 
         disponivel: true
@@ -98,7 +98,7 @@ const items = [
     {
         id: 13,
         nome: "Escorredor",
-        descricao: "sei lá, é necessário né?",
+        descricao: "Emmy sem macarrão é um Emmy mau-humorada",
         imagem: "https://down-br.img.susercontent.com/file/br-11134207-7qukw-lk9mzphnmymh6a",
         link: "https://shopee.com.br/Escorredor-De-Arroz-E-Massas-Macarr%C3%A3o-Em-A%C3%A7o-Inox-Com-Al%C3%A7a-24cm-i.316898520.19215824522?xptdk=6863cd06-14d0-4a07-a979-12065c943abb", 
         disponivel: true
@@ -184,7 +184,7 @@ itensOrdenados.forEach(item => {
                     itemDiv.classList.add("disabled");
                     buyButton.disabled = true;
                     $('#myModal').modal('hide');
-                    //enviarEmail(item, nomeComprador);
+                    enviarEmail(item, nomeComprador);
                 } else {
                     alert("Por favor, insira seu nome.");
                 }
