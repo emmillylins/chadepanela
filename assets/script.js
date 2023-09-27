@@ -37,7 +37,7 @@ const items = [
         descricao: "ajuda na preguiça de enxugar e guardar",
         imagem: "https://down-br.img.susercontent.com/file/6e629cc891eb948e275aa3e38156eb6b",
         link: "https://shopee.com.br/Escorredor-De-Lou%C3%A7a-Cozinha-Prato-Duplo-Porta-Talheres-Preto-Metaltru-i.341754426.14089007380?xptdk=14b964cf-8e2a-4993-b864-096a13c761c5", 
-        disponivel: true
+        disponivel: false
     },
     {
         id: 6,
