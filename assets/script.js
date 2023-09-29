@@ -165,7 +165,7 @@ const items = [
         descricao: "Pra enxugar meus pratinhos e copinhos né",
         imagem: "https://down-br.img.susercontent.com/file/22d9d645eb9f433fee4de06820d564b6",
         link: "https://shopee.com.br/Kit-5-Panos-De-Prato-Promo%C3%A7%C3%A3o-i.293509643.5146537596?sp_atk=8d70d822-0ee3-48b6-94c7-f010fbdbfc48&xptdk=8d70d822-0ee3-48b6-94c7-f010fbdbfc48", 
-        disponivel: true
+        disponivel: false
     },
     // {
     //     id: 21,
