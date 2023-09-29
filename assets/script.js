@@ -65,10 +65,10 @@ const items = [
     },
     {
         id: 9,
-        nome: "Panos de prato",
-        descricao: "Pra enxugar meus pratinhos e copinhos né",
-        imagem: "https://down-br.img.susercontent.com/file/22d9d645eb9f433fee4de06820d564b6",
-        link: "https://shopee.com.br/Kit-5-Panos-De-Prato-Promo%C3%A7%C3%A3o-i.293509643.5146537596?sp_atk=8d70d822-0ee3-48b6-94c7-f010fbdbfc48&xptdk=8d70d822-0ee3-48b6-94c7-f010fbdbfc48", 
+        nome: "Jogo de Lençol",
+        descricao: "Tô usando o mesmo lençol há 3 meses",
+        imagem: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS-wFhtSpSPm2DuBvhqmv13KN5QUESL6xyc0f3GqCM69pGN1hge",
+        link: "https://www.amazon.com.br/Len%C3%A7ol-Casal-Pe%C3%A7as-Algod%C3%A3o-Escandinavo/dp/B08DNCQ6R6/ref=asc_df_B08DNCQ6R6/?tag=googleshopp00-20&linkCode=df0&hvadid=379720772128&hvpos=&hvnetw=g&hvrand=6817761256959427178&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001625&hvtargid=pla-1597129983749&psc=1", 
         disponivel: true
     },
     {
@@ -158,6 +158,14 @@ const items = [
         imagem: "https://down-br.img.susercontent.com/file/sg-11134201-22110-8iyns92gqrjvc4",
         link: "https://shopee.com.br/Lixo-Lixeira-Grande-Resistente-Refor%C3%A7ada-Tampa-Escrit%C3%B3rio-Cozinha-Banheiro-Quarto-Sala-Trabalho-Pl%C3%A1stico-c-Pedal-15-Litros-i.388832051.5584731344?sp_atk=9c409b35-82e4-4127-aa2d-569860667551&xptdk=9c409b35-82e4-4127-aa2d-569860667551", 
         disponivel: false
+    },
+	 {
+        id: 21,
+        nome: "Panos de prato",
+        descricao: "Pra enxugar meus pratinhos e copinhos né",
+        imagem: "https://down-br.img.susercontent.com/file/22d9d645eb9f433fee4de06820d564b6",
+        link: "https://shopee.com.br/Kit-5-Panos-De-Prato-Promo%C3%A7%C3%A3o-i.293509643.5146537596?sp_atk=8d70d822-0ee3-48b6-94c7-f010fbdbfc48&xptdk=8d70d822-0ee3-48b6-94c7-f010fbdbfc48", 
+        disponivel: true
     },
     // {
     //     id: 21,
