@@ -117,7 +117,7 @@ const items = [
         descricao: "Pra enxugar os pezinhos das visitas né",
         imagem: "https://down-br.img.susercontent.com/file/br-11134201-23010-u15wh28qnpmvc5",
         link: "https://shopee.com.br/Jogo-de-Passadeira-de-Tear-Tapete-de-Cozinha-3-Pe%C3%A7as-Algod%C3%A3o-i.789131072.16078009518?sp_atk=0c89d2dd-3520-401c-a2ef-0e352aca7817&xptdk=0c89d2dd-3520-401c-a2ef-0e352aca7817", 
-        disponivel: true
+        disponivel: false
     },
     {
         id: 16,
@@ -133,7 +133,7 @@ const items = [
         descricao: "Gostei que só da cor Tiffany",
         imagem: "https://down-br.img.susercontent.com/file/d67c90cf960ce1b4ede53de1fdfd3180",
         link: "https://shopee.com.br/Manta-Pra-Sof%C3%A1-Gigantes-Tipo-Capa-100-Algod%C3%A3o-com-N%C3%B3-nas-pontas-*Promo%C3%A7%C3%A3o*-i.332667864.9715263398?xptdk=8b9d9cab-542a-41b0-a923-3365c085608e", 
-        disponivel: true
+        disponivel: false
     },
     {
         id: 18,
