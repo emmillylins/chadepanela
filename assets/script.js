@@ -21,7 +21,7 @@ const items = [
         descricao: "Acabar com aquelas formigas safadas",
         imagem: "https://down-br.img.susercontent.com/file/br-11134207-7qukw-ljsidc8041oq80",
         link: "https://shopee.com.br/Kit-de-Potes-para-Cozinha-Dispensa-Acr%C3%ADlico-Tampa-com-Trava-Potes-Herm%C3%A9ticos-5-Pe%C3%A7as-Caneta-e-Etiqueta-i.317212231.22096193690?xptdk=a313ec8b-c2a5-4afb-9ee6-b5f11fa2bd17", 
-        disponivel: true
+        disponivel: false
     },
     {
         id: 4,
