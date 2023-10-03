@@ -157,7 +157,7 @@ const items = [
         descricao: "Com tampa por favor, senão Fu age",
         imagem: "https://down-br.img.susercontent.com/file/sg-11134201-22110-8iyns92gqrjvc4",
         link: "https://shopee.com.br/Lixo-Lixeira-Grande-Resistente-Refor%C3%A7ada-Tampa-Escrit%C3%B3rio-Cozinha-Banheiro-Quarto-Sala-Trabalho-Pl%C3%A1stico-c-Pedal-15-Litros-i.388832051.5584731344?sp_atk=9c409b35-82e4-4127-aa2d-569860667551&xptdk=9c409b35-82e4-4127-aa2d-569860667551", 
-        disponivel: false
+        disponivel: true
     },
 	 {
         id: 21,
