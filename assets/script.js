@@ -167,14 +167,14 @@ const items = [
         link: "https://shopee.com.br/Kit-5-Panos-De-Prato-Promo%C3%A7%C3%A3o-i.293509643.5146537596?sp_atk=8d70d822-0ee3-48b6-94c7-f010fbdbfc48&xptdk=8d70d822-0ee3-48b6-94c7-f010fbdbfc48", 
         disponivel: false
     },
-    // {
-    //     id: 21,
-    //     nome: "STRING",
-    //     descricao: "STRING",
-    //     imagem: "STRING",
-    //     link: "STRING", 
-    //     disponivel: true
-    // },
+     {
+        id: 22,
+        nome: "Kit de panos de chão",
+        descricao: "muito necessário, principalmente tendo Fu",
+        imagem: "https://down-br.img.susercontent.com/file/br-11134207-7qukw-lga5rs39fcjqa5",
+        link: "https://shopee.com.br/Kit-4-Super-Panos-De-Ch%C3%A3o-Grandes-Em-Microfibra-Pan%C3%A3o-80x50-i.398603419.22695608048?sp_atk=cc8222ad-ef42-4045-8b27-4e26a5c12d04&xptdk=cc8222ad-ef42-4045-8b27-4e26a5c12d04", 
+        disponivel: true
+    }
 ];
 
 // Separa os itens em disponíveis e indisponíveis
