@@ -149,7 +149,7 @@ const items = [
         descricao: "Pra colocar um xampu, uma saboneteira...",
         imagem: "https://m.media-amazon.com/images/I/61WyYfXxlTL._AC_UF894,1000_QL80_.jpg",
         link: "https://www.amazon.com.br/Porta-Shampoo-Branco-Encaixar-Stolf/dp/B07GLVDG5W/ref=asc_df_B07GLVDG5W/?tag=googleshopp00-20&linkCode=df0&hvadid=379791908525&hvpos=&hvnetw=g&hvrand=16752600195553410408&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001625&hvtargid=pla-1648355215159&th=1", 
-        disponivel: true
+        disponivel: false
     },
     {
         id: 20,
