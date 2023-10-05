@@ -45,7 +45,7 @@ const items = [
         descricao: "Bora comprar um queijo e um presunto, minha filha?",
         imagem: "https://down-br.img.susercontent.com/file/br-11134207-7qukw-lhoqsfzaodvy8f",
         link: "https://shopee.com.br/Kit-Porta-Ovos-Geladeira-Com-Tampa-Porta-Frios-Acr%C3%ADlico-herm%C3%A9tico-Potes-Mantimentos-i.435948848.16644843819?xptdk=52ce8e77-9508-4d20-84b8-05ffe526df10", 
-        disponivel: true
+        disponivel: false
     },
     {
         id: 7,
