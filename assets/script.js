@@ -69,7 +69,7 @@ const items = [
         descricao: "Tô usando o mesmo lençol há 3 meses",
         imagem: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS-wFhtSpSPm2DuBvhqmv13KN5QUESL6xyc0f3GqCM69pGN1hge",
         link: "https://www.amazon.com.br/Len%C3%A7ol-Casal-Pe%C3%A7as-Algod%C3%A3o-Escandinavo/dp/B08DNCQ6R6/ref=asc_df_B08DNCQ6R6/?tag=googleshopp00-20&linkCode=df0&hvadid=379720772128&hvpos=&hvnetw=g&hvrand=6817761256959427178&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001625&hvtargid=pla-1597129983749&psc=1", 
-        disponivel: true
+        disponivel: false
     },
     {
         id: 10,
