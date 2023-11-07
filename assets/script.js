@@ -29,7 +29,7 @@ const items = [
         descricao: "Não vou ter mais desculpa pra não tomar banho :/",
         imagem: "https://down-br.img.susercontent.com/file/br-11134207-7qukw-lkcpxyknwte11a",
         link: "https://shopee.com.br/Kit-c-4-Toalhas-de-Banho-e-Rosto-Jogo-de-Toalhas-Grande-Grossa-100-Algod%C3%A3o-75cm-x-130cm-i.920653955.20198832873?sp_atk=2a1b6eda-5603-471c-baf4-78a571166185&xptdk=2a1b6eda-5603-471c-baf4-78a571166185", 
-        disponivel: false
+        disponivel: true
     },
     {
         id: 5,
@@ -68,8 +68,8 @@ const items = [
         nome: "Jogo de Lençol",
         descricao: "Tô usando o mesmo lençol há 3 meses",
         imagem: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS-wFhtSpSPm2DuBvhqmv13KN5QUESL6xyc0f3GqCM69pGN1hge",
-        link: "https://www.amazon.com.br/Len%C3%A7ol-Casal-Pe%C3%A7as-Algod%C3%A3o-Escandinavo/dp/B08DNCQ6R6/ref=asc_df_B08DNCQ6R6/?tag=googleshopp00-20&linkCode=df0&hvadid=379720772128&hvpos=&hvnetw=g&hvrand=6817761256959427178&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001625&hvtargid=pla-1597129983749&psc=1", 
-        disponivel: false
+        link: "https://www.donadacasaenxoval.com.br/jogo-de-lencol-classic-casal-padrao-4-pecas-marquesa/p?gad_source=1&gclid=Cj0KCQjwy4KqBhD0ARIsAEbCt6inrDQxfspFhezS49jDXZq27NQ0j8oyYapgHq0Y0evIT3qwS6RwRZkaAg1gEALw_wcB", 
+        disponivel: true
     },
     {
         id: 10,
@@ -108,8 +108,8 @@ const items = [
         nome: "Jarra de suco",
         descricao: "Pras minhas visitas tomarem um suquinho",
         imagem: "https://down-br.img.susercontent.com/file/sg-11134201-7qvg3-lg5ivmyq11libd",
-        link: "https://shopee.com.br/Jarra-Borossilicato-Com-Tampa-Al%C3%A7a-Capacidade-De-1-3l-Prata-i.297187377.22727792625?xptdk=a4314968-d8ae-41f7-8d8c-892f334fc249", 
-        disponivel: false
+        link: "https://shopee.com.br/Jarra-De-Vidro-Borossilicato-Com-Tampa-De-Bambu-Mesa-1-3l-i.340751507.23317469590?xptdk=58003ea2-5ea7-4a84-9b14-102ba7c477c2", 
+        disponivel: true
     },
     {
         id: 15,
@@ -141,7 +141,7 @@ const items = [
         descricao: "Sempre quis ter um desses",
         imagem: "https://down-br.img.susercontent.com/file/sg-11134201-7qvec-lf08kchlwj0622",
         link: "https://shopee.com.br/Cj-3Pc-P-Banheiro-De-Cer%C3%A2mica-Londres-Branco-E-Ros%C3%A9-i.421955250.18577242433?sp_atk=a9bf0482-4031-4fef-bb72-6bc8c058e7fb&xptdk=a9bf0482-4031-4fef-bb72-6bc8c058e7fb", 
-        disponivel: true
+        disponivel: false
     },
     {
         id: 19,
@@ -157,7 +157,7 @@ const items = [
         descricao: "Com tampa por favor, senão Fu age",
         imagem: "https://down-br.img.susercontent.com/file/sg-11134201-22110-8iyns92gqrjvc4",
         link: "https://shopee.com.br/Lixo-Lixeira-Grande-Resistente-Refor%C3%A7ada-Tampa-Escrit%C3%B3rio-Cozinha-Banheiro-Quarto-Sala-Trabalho-Pl%C3%A1stico-c-Pedal-15-Litros-i.388832051.5584731344?sp_atk=9c409b35-82e4-4127-aa2d-569860667551&xptdk=9c409b35-82e4-4127-aa2d-569860667551", 
-        disponivel: true
+        disponivel: false
     },
 	 {
         id: 21,
